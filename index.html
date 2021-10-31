@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: aqua;
+            padding: 0 10px;
+        }
+        .input {
+            max-width: 500px;
+            width: 100%;
+            background: #fff;
+            margin: 20px auto;
+            box-shadow: 1px 1px 2px rgba(196, 20, 20, 0.125);
+        }
+        .input .title {
+            font-size: 24px;
+            font-weight: 700;
+            color: #fec107;
+            text-align: center;
+        }
+        .input .form {
+            width: 100%;
+
+        }
+        label{
+            width: 200px;
+            color: #773636;
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="input">
+       <div class="title" style="text-align: center;" >
+          <h2> Registration Form </h2>
+
+       </div>
+       <div class="form">
+           <div class="input">
+               <label for="">First Name</label>
+               <input type="text">
+
+           </div>
+           <div class="input">
+            <label for="">Last Name</label>
+            <input type="text">
+
+        </div>
+        
+       
+        <div class="input">
+            <label for="">Gender</label>
+            <div class="gender">
+                <select name="" id="">
+                    <option value="">Select</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+
+            </div>
+
+        </div>
+        <div class="input">
+            <label for="">Email</label>
+            <input type="email ">
+
+        </div>
+
+        <div class="input">
+            <label for="">password</label>
+            <input type="password">
+
+        </div>
+        <div class="input">
+            <label for="">Phone Number</label>
+            <input type="text">
+
+        </div>
+        <div class="input">
+            <label for="">Address</label>
+            <textarea class="textarea" name="" ></textarea>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Registration" class="register">
+
+        </div>
+
+       </div>
+
+
+
+
+    </div>
+   
+</body>
+</html>
